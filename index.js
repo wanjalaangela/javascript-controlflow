@@ -74,7 +74,7 @@ while(lives<=5 && lives>=0){
 }
  }
 
-  liveCountdown()
+  liveCountdown();
 
 //   5. Using a do...while loop, write a program that loops through an array of user feedback and 
 // prints each comment until the array is empty.
@@ -129,3 +129,12 @@ function addressTicket(tickets){
 addressTicket(['Regular','VVIP','VIP']);
 
 // 8. Create a while loop that simulates a quiz countdown from 10 seconds, printing each number until it reaches 0.
+
+function timeCountdown(){
+    let seconds = 10;
+    while(seconds<=10 && seconds>=0){
+        console.log(`You have ${seconds} seconds left`);
+        seconds--
+    }
+}
+timeCountdown();
